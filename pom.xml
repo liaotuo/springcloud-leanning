@@ -7,6 +7,7 @@
     <groupId>com.liaotuo.springcloud</groupId>
     <artifactId>springcloud-leanning</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <description>父工程</description>
     <modules>
         <module>cloud-provider-payment-8001</module>
     </modules>
@@ -19,7 +20,8 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <junit.version>4.12</junit.version>
         <log4j.version>1.2.17</log4j.version>
-        <lombok.version>1.16.18</lombok.version>
+        <!-- lombok 1.16 版本编译会报错-->
+        <lombok.version>1.18.12</lombok.version>
         <mysql.version>8.0.18</mysql.version>
         <druid.version>1.1.16</druid.version>
         <spring.cloud.alibaba.version>2.1.0.RELEASE</spring.cloud.alibaba.version>
