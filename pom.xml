@@ -10,6 +10,7 @@
     <description>父工程</description>
     <modules>
         <module>cloud-provider-payment-8001</module>
+        <module>cloud-consumer-order-80</module>
     </modules>
     <packaging>pom</packaging>
 
