@@ -21,3 +21,6 @@ eureka:
       defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
     register-with-eureka: true
     fetch-registry: true
+  instance:
+    instance-id: payment8002
+    prefer-ip-address: true # 访问路径显示 ip
